@@ -1,13 +1,15 @@
 # arithithmetic-operations
+<br>
 #include <stdio.h>
+    <br>
 #include <stdlib.h>
-
+<br>
 void arrayInput(int n, int *arr){
-    printf("Enter array elements : ");
-    for(int i=0; i<n; i++){
-        scanf("%d", &arr[i]);
-    }
-}
+    printf("Enter array elements : "); 
+    for(int i=0; i<n; i++){ 
+        scanf("%d", &arr[i]); 
+    } 
+} 
 
 void arrayDisplay(int n, int *arr){
     if (n==0){
